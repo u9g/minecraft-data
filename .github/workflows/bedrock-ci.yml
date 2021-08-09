@@ -29,6 +29,7 @@ jobs:
       with:
         repository: PrismarineJS/bedrock-protocol
         path: bedrock-protocol
+    - run: ls -R .
     - run: |
         cd bedrock-protocol
         npm uninstall minecraft-data

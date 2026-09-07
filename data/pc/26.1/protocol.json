@@ -10697,17 +10697,7 @@
           [
             {
               "name": "actionId",
-              "type": [
-                "mapper",
-                {
-                  "type": "varint",
-                  "mappings": {
-                    "0": "perform_respawn",
-                    "1": "request_stats",
-                    "2": "request_gamerule_values"
-                  }
-                }
-              ]
+              "type": "varint"
             }
           ]
         ],
@@ -10904,16 +10894,7 @@
             },
             {
               "name": "hand",
-              "type": [
-                "mapper",
-                {
-                  "type": "varint",
-                  "mappings": {
-                    "0": "main_hand",
-                    "1": "off_hand"
-                  }
-                }
-              ]
+              "type": "varint"
             },
             {
               "name": "location",
